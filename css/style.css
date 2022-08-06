@@ -1,0 +1,111 @@
+:root{
+    --choco: #deb887;
+    --chocopuro: #a52a2a;
+    --negro: #000000;
+    --gris: #808080;
+    --blanco: #ffffff;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 16px;
+    background-image: url(/images/fondo-cafe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Magra', sans-serif;
+    padding: 20px;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 4rem;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+.menu .fecha{
+    font-style:italic;
+}
+
+svg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+}
+
+h1,h2,p{
+    text-align: center;
+}
+
+hr{
+    height: 5px;
+    background-color: var(--chocopuro);
+    border-color: var(--chocopuro);
+    border: none;
+    border-radius: 10px;
+}
+
+.bottom-line{
+    margin-top: 25px;
+}
+
+.menu{
+    max-width: 500px;
+    background-color: var(--choco);
+    margin: auto;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.sabor, .postre{
+    text-align: left;
+    width: 75%;
+}
+
+.precio{
+    text-align: right;
+    width: 25%;
+}
+
+.item p{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 1.8rem;
+}
+
+.direccion{
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+/*FOOTER*/
+footer{
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    color: var(--negro);
+}
+
+a:hover{
+    color: var(--chocopuro);
+}
+
+.local{
+    width: 35%;
+    display: flex;
+    align-items:flex-end;
+}
